@@ -15,7 +15,7 @@ describe("index.js", () => {
 
   describe("defines mondayWork function expression as specified", function() {
     it("function exists", function() {
-      expect(mondayWork).to.exist
+      expect(mondayWork).to.exist         
     })
 
     it("uses the default activity 'go to the office' when no arguments are passed", function() {
